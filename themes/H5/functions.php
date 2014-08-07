@@ -70,6 +70,11 @@ if (!function_exists('theme_register_required_plugins')) {
                     'slug'      => 'polylang',
                     'required'  => true,
                 ),
+                array(
+                    'name'      => 'Custom Sidebars',
+                    'slug'      => 'custom-sidebars',
+                    'required'  => true,
+                ),        
         );
 
         /**
